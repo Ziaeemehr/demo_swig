@@ -1,0 +1,24 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "pytest",
+    "setuptools_scm",
+    "setuptools>=45",
+    "swig>=4.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo"
+version = "0.1.0"
+description = "A simple example Python package"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Abolfazl Ziaeemehr", email = "a.ziaeemehr@gmail.com" }]
+dependencies = []
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+include-package-data = true
