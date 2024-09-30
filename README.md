@@ -1,7 +1,14 @@
 # demo
 
 This is a simple Python package example including C++ code wrapped with SWIG.
-The C++ code in compiled automatically during the installation using pip.
+The C++ code is compiled automatically during the installation using pip.
+
+## Key Features
+
+- **C++ Integration**: The package includes C++ code wrapped with SWIG, facilitating efficient function calls from Python.
+- **Easy Installation**: I've prepared both `pyproject.toml` and `setup.py` files, enabling straightforward compilation of the C++ code during installation via pip. This ensures a smooth setup process for users.
+- **Cross-Platform Compatibility**: Designed for compatibility across different platforms, this package can be installed and run without compatibility issues.
+
 
 ### Installation 
 

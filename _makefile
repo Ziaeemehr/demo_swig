@@ -1,3 +1,5 @@
+# This file is not actually required, I just use it for cleaning the directories.
+# anyway it works for compiling the code if uncomment the lines.
 
 PYTHON_INCLUDE = $(shell python3-config --includes)
 PYTHON_LIB = $(shell python3-config --libs)
